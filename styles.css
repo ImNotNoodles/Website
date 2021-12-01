@@ -20,11 +20,34 @@
     cursor: pointer;
 }
 
-.temp{
-    text-align: center;
-    padding-top: 500px;
+button{
     color: white;
-    font-size: 50px;
-    text-shadow: 5px 5px black;
+    padding: 10px 25px;
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    outline: none;
     cursor: pointer;
+    font-size: 30px;
+}
+
+
+.content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    transform: translateY(-50%);
+    z-index: 2;
+}
+
+.content h1 {
+    font-size: 80px;
+    margin: 10px 0 30px;
+    line-height: 80px;
+    text-shadow: 2px 2px black;
+}
+.content small {
+    font-size: 30px;
+    text-shadow: 2px 2px black;
 }
