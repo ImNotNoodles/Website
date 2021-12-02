@@ -56,3 +56,18 @@
     color: white;
     text-shadow: 1px 1px black;
 }
+
+
+.social-links{
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+
+.social-links a{
+    text-shadow: 2px 2px black;
+    color: white;
+    font-size: 20px;    
+}
