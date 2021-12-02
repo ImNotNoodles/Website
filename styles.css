@@ -51,3 +51,7 @@ button{
     font-size: 30px;
     text-shadow: 2px 2px black;
 }
+
+.content a {
+    color: white;
+}
