@@ -7,14 +7,12 @@
 }
 
 html{
-    font-size: 50px;
+    font-size: 30px;
     font-family: 'IBM Plex Sans', sans-serif;
 }
 
 a{
     text-decoration: none;
-    align-items: center;
-    padding-left: 25%;
 }
 .container{
     min-height: 100vh;
@@ -24,6 +22,48 @@ a{
     justify-content: center;
 }
 
+/*Hero Section*/
 #hero{
     background-image: url(./background.jpg);
+    background-size: cover;
+    background-position: top center;
+    position: relative;
+    z-index: 1;
 }
+
+#hero::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: .3;
+    z-index: -1;
+}
+#hero h1{
+    display: block;
+    width: fit-content;
+    font-size: 4rem;
+    position: relative;
+    color: white;
+}
+#hero .cta{
+    display: inline-block;
+    padding: 10px 30px;
+    color: white;
+    background-color: transparent;
+    border: 2px solid crimson;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: .1rem;
+    margin-top: 30px;
+    transition: .3s ease background-color;
+    transition-property: background-color, color;
+}
+#hero .cta:hover{
+    color: white;
+    background-color: crimson;
+}
+/*End Of Hero Section*/
