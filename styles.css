@@ -99,10 +99,6 @@
     transition: all 0.3s ease;
 }
 
-.temp{
-    font-size: 50px;
-}
-
 
 @media screen and (max-width: 960px)  {
 .navbar__container{
@@ -114,10 +110,6 @@
         max-width: 1300px;
         padding: 0;
     }
-
-    .temp{
-        font-size: 30px;
-    }
-    
+/*Continue Here: https://youtu.be/3-2Pj5hxwrw?list=PL_CjpliMT4trC2jzBuIRzul17hxQclNez&t=1563*/
 
 }
