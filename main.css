@@ -7,7 +7,8 @@
 
 
 body{
-    background-image: url(./images/background.png);
+    background-image: url(./background.png);
+    overflow-x: hidden;
 }
 
 .temp{
@@ -114,16 +115,18 @@ nav{
     }
 
     .temp{
-        color: white;
+        color: red;
         user-select: none;
-        font-size: 2vh;
+        font-size: 15px;
         width: 30%;
         border: 3px solid red;
-        padding: 10px;
+        padding: 30px;
         text-transform: uppercase;
         text-align: center;
         margin: auto;
         margin-top: 20vh;
+        text-overflow: ellipsis;
+        text-shadow: black 2 2;
         
     }
     
@@ -158,3 +161,5 @@ nav{
 .toggle .line3{
     transform: rotate(45deg) translate(-5px,-6px);
 }
+
+
