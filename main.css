@@ -11,6 +11,37 @@ body{
     overflow-x: hidden;
 }
 
+.logoimg img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 150px;
+    padding-top: 10%;
+    
+
+}
+
+.welcometext h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 50px;
+}
+.welcometext h2{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.temp2 h1{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px #ff0000;
+    font-size: 40px;
+    padding-top: 600px;
+}
+
 .temp{
     color: red;
     user-select: none;
@@ -128,6 +159,24 @@ nav{
         text-overflow: ellipsis;
         text-shadow: black 2 2;
         
+    }
+    .welcometext h1{
+        font-size: 25px;
+
+    
+    }
+    .welcometext h2{
+        font-size: 18px;
+    }
+
+
+
+    .temp2 h1{
+        text-align: center;
+        color: white;
+        text-shadow: 2px 2px #ff0000;
+        font-size: 20px;
+        padding-top: 600px;
     }
     
 
