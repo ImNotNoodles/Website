@@ -134,6 +134,9 @@ nav{
         width: 40%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        position: absolute;
+        white-space: nowrap;
+        overflow: hidden;
     }
 
     .nav-links li{
