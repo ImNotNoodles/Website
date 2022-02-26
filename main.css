@@ -72,6 +72,11 @@ nav{
     text-transform: uppercase; /*text-transform transforms text || upercase.. kinda obvious*/
     letter-spacing: 5px; /*This is geting rediculous now*/
     font-size: 20px;
+    
+}
+.logo a{
+    text-decoration: none;
+    color: white;
 }
 
 .nav-links{
@@ -103,6 +108,26 @@ nav{
     background-color: rgb(209, 209, 209);
     margin: 5px;
     transition: all 0.3s ease;
+}
+
+.python{
+    margin-left: 150px;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    
+}
+
+.python h1{
+    color: white;
+    margin-left: 10px;
+    text-decoration: underline red;
+    
+}
+.python h2{
+    color: white;
+    margin-left: 15px;
+    text-shadow: 2px 2px #ff0000;
 }
 
 
